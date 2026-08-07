@@ -1,0 +1,61 @@
+# ---------------------------
+# Python / venv
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+jupyter_cache/
+
+# ---------------------------
+# VS Code / IDE files
+# ---------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ---------------------------
+# OS-specific junk
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Environment / secrets
+# ---------------------------
+.env
+.env.*
+*.secret
+*.key
+
+# ---------------------------
+# Data (raw + intermediate)
+# ---------------------------
+data/raw/*
+data/processed/*
+
+# ---------------------------
+# Results (large / intermediate)
+# ---------------------------
+results/plots/*
+# keep iterations_log.csv versioned, comment out next line if you want to ignore it
+# results/iterations_log.csv
+
+# ---------------------------
+# Prompt logs (large exports)
+# ---------------------------
+prompts/sessions/*
